@@ -1,0 +1,8 @@
+.moviesMessage {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}

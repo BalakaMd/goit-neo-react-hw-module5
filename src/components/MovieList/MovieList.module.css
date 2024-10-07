@@ -1,0 +1,18 @@
+.movieItem {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.movieTitle {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.movieItem:hover {
+    background-color: #f5f5f5;
+}

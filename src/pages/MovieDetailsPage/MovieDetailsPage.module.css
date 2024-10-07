@@ -1,0 +1,106 @@
+.pageContainer {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.movieContainer {
+    display: flex;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.poster {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-right: 30px;
+}
+
+.infoContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.rating,
+.releaseDate {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.overview {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.rating {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.highRating {
+    color: #4CAF50;
+}
+
+.mediumRating {
+    color: #FFC107;
+}
+
+.lowRating {
+    color: #F44336;
+}
+
+.infoLink {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px 15px;
+    background-color: #3f51b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.infoLink:hover {
+    background-color: #303f9f;
+}
+
+.backButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3f51b5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.backButton:hover {
+    background-color: #303f9f;
+}
+
+.backButton::before {
+    content: '←';
+    margin-right: 10px;
+    font-size: 20px;
+}
